@@ -15,7 +15,7 @@ function App() {
 function Test() {
   return (
     React.createEleme("div",null),
-        React.createElement("img",{src:"http://espectro.pw/image",alt: "Fotka"}),
+        React.createElement("img",{src:"https://www.espectro.pw/img/img_tomatoes.jpg",alt: "Fotka"}),
         React.createElement("h1",null,"Tekst potomny")
   );
 }
