@@ -13,19 +13,6 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-ReactDOM.render(
-  <React.StrictMode>
-    <Hello />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-ReactDOM.render(
-  <React.StrictMode>
-    <HelloWorld />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
 
 
 
