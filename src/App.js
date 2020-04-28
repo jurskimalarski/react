@@ -14,25 +14,13 @@ function App() {
 
 function Test() {
   return (
-    <div className="Test">
-
-    <h2 className='Test'>Funkcja test </h2>
-
-
-    </div>
+    React.createEleme("div",null),
+        React.createElement("img",{src:"http://espectro.pw/image",alt: "Fotka"}),
+        React.createElement("h1",null,"Tekst potomny")
   );
 }
 
 
-export class HelloWorld extends React.Component{
-  render() {
-    return (
-        <div>
-          <h1 className='Hello'>Klasa HelloWorld className Hello   </h1>
-        </div>
-    );
-  }
-}
 
 
 
